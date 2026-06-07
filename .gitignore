@@ -1,9 +1,11 @@
 # 编译产物
-wiki        # 之前 go build 生成的可执行文件
+wiki        
+# 之前 go build 生成的可执行文件
 
 # 数据文件 (用户的页面数据)
 *.txt
-!go.mod     # 如果你有 go.mod 文件，要排除它
+# 如果你有 go.mod 文件，要排除它
+!go.mod     
 !go.sum
 
 # IDE 配置
